@@ -7,25 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--<TextView
-        android:id="@+id/user_details"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        android:text="@string/hello_finally"
-        app:layout_constraintBottom_toTopOf="@+id/logout"
-        app:layout_constraintEnd_toEndOf="@+id/logout"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/logout" />
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/logout"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="314dp"
-        tools:ignore="MissingConstraints" />-->
 
         <ScrollView
             android:layout_width="match_parent"
@@ -66,6 +48,25 @@
                         android:textSize="16sp"
                         android:textStyle="bold"
                         tools:ignore="HardcodedText,TextContrastCheck" />
+                    <TextView
+                        android:id="@+id/user_details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="28dp"
+                        android:text="@string/hello_finally"
+                        app:layout_constraintBottom_toTopOf="@+id/logout"
+                        app:layout_constraintEnd_toEndOf="@+id/logout"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="@+id/logout" />
+
+                    <Button
+                        android:id="@+id/logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/logout"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="173dp"
+                        tools:layout_editor_absoluteY="314dp" />
 
                     <ImageView
                         android:layout_width="70dp"
