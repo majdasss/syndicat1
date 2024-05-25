@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">syndicat</string>
+    <string name="hello_finally">hello_finally</string>
+    <string name="logout">logout</string>
+    <string name="descrip">descrip</string>
+    <string name="text">text</string>
+    <string name="logo_user">logo_user</string>
+    <string name="content_1">Content 1</string>
+    <string name="documents">Documents</string>
+    <string name="hello">Hello</string>
+    <string name="contact">Contact</string>
+    <string name="home">Home</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="notifications">notifications</string>
+    <string name="facture">Facture</string>
+    <string name="planning">Planning</string>
+    <string name="a_proximit">A proximité</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+</resources>
