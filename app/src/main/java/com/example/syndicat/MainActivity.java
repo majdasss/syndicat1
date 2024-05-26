@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize views
         bottomNavigationView = findViewById(R.id.bottom_navigation);
-       // button = findViewById(R.id.logout);
-       // textView = findViewById(R.id.user_details);
+        button = findViewById(R.id.logout);
+        textView = findViewById(R.id.user_details);
 
         // Initialize Firebase Auth
         auth = FirebaseAuth.getInstance();
